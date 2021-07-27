@@ -8,4 +8,7 @@ public class car extends vehicle {
     public void setModelName (String modelName) {
         this.modelName = modelName;
     }
+    public void printCar(){
+        System.out.println(modelName);
+    }
 }
